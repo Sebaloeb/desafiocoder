@@ -174,4 +174,18 @@ a {
     
 }
 
+.pie_de_pagina_item a {
+    background-color: rgb(23, 141, 141);
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    margin: 50px auto;
+    padding: 5px;
+    transition: all 3s;
+    
+    
+}
+.pie_de_pagina_item:hover {
+    transform: scale(3);
+}
 
