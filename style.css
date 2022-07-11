@@ -7,15 +7,15 @@
     height: 100vh;
     display: grid;
     grid-template-rows: repeat(3, 1fr) ;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2px;
     
     
     
 
-    grid-template-areas: "header header header header header header"
-    "section section section section section section "
-    "footer footer footer footer footer footer";
+    grid-template-areas: "header header header"
+    "section section section "
+    "footer footer footer";
     
   
 }
